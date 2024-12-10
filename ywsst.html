@@ -1,0 +1,41 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button Hover Effect with Font Change</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        .custom-button {
+            background-color: #0763e8; /* Initial blue background */
+            color: white; /* Initial white font color */
+            padding: 35px 135px;
+            border: none;
+            border-radius: 7px;
+            font-size: 30px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        .custom-button:hover {
+            background-color: white; /* Change background to white on hover */
+            color: #0763e8; /* Change font color to blue on hover */
+            transform: scale(1.1); /* Optional: button scales on hover */
+        }
+
+        body {
+            height: 100vh;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+        }
+    </style>
+</head>
+<body>
+    <a href="https://sites.google.com/view/ghiblicollection/về-chúng-tôi/studio-ghibli">
+        <button class="custom-button">Tìm hiểu thêm</button>
+    </a>
+</body>
+</html>
